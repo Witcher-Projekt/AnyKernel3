@@ -2,13 +2,13 @@ NAME ?= StormBreaker
 
 DATE := $(shell date "+%Y%m%d-%H%M")
 
-DEVICE :=
+DEVICE := RMX2020
 
 KERNELVERSION := $(shell cat ../Makefile | grep VERSION | head -n 1 | sed "s|.*=||1" | sed "s| ||g")
 
 KERNELPATCHLEVEL := $(shell cat ../Makefile | grep PATCHLEVEL | head -n 1 | sed "s|.*=||1" | sed "s| ||g")
 
-VERSION :=
+VERSION := 0.1
 
 ZIP := $(NAME)-$(KERNELVERSION).$(KERNELPATCHLEVEL)-$(DEVICE)-$(DATE)-$(VERSION).zip
 
