@@ -4,21 +4,21 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=StormBreaker Kernel
-maintainer.string1=Saalim Quadri, Team StormBreaker
+kernel.string=Meme Kernel
+maintainer.string1=iamlordutkarsh
 do.devicecheck=1
 do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=1
-device.name1=
-device.name2=
+device.name1=RMX2020
+device.name2=rmx2020
 supported.versions=
 supported.patchlevels=
 '; } # end properties
 
 # shell variables
-block=/dev/block/bootdevice/by-name/boot;
+block=/dev/block/by-name/boot;
 is_slot_device=auto;
 ramdisk_compression=auto;
 
