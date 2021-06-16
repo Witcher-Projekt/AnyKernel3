@@ -1,4 +1,4 @@
-NAME ?= StormBreaker
+NAME ?= Meme
 
 DATE := $(shell date "+%Y%m%d-%H%M")
 
