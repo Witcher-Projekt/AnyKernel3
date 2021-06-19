@@ -11,8 +11,8 @@ do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=1
-device.name1=RMX2020
-device.name2=rmx2020
+device.name1=RMX2121
+device.name2=rmx2121
 supported.versions=
 supported.patchlevels=
 '; } # end properties

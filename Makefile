@@ -2,7 +2,7 @@ NAME ?= Meme
 
 DATE := $(shell date "+%Y%m%d-%H%M")
 
-DEVICE := RMX2020
+DEVICE := RMX2121
 
 KERNELVERSION := $(shell cat ../Makefile | grep VERSION | head -n 1 | sed "s|.*=||1" | sed "s| ||g")
 
